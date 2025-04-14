@@ -58,3 +58,6 @@ class User {
         return true;
     }
 }
+
+
+module.exports = User;
