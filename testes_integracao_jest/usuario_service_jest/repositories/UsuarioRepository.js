@@ -5,7 +5,7 @@ let usuariosDB = [];
 
 class UsuarioRepository {
     // Método para criar um novo usuário
-    async createUsuario(data) {
+    createUsuario(data) {
         const usuario = new Usuario(data.nome, data.email, data.senha, data.documento);
         if (!usuariosDB.find(u => u.nome == data.nome)){
             usuariosDB.push(usuario);
@@ -23,4 +23,4 @@ class UsuarioRepository {
     }
 }
 
-module.exports = new UsuarioRepository();
+module.exports = UsuarioRepository;
