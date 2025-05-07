@@ -1,0 +1,18 @@
+{
+  "name": "revisao",
+  "version": "1.0.0",
+  "description": "Projetos de Revisão da UC de Testes de Sistemas do Senai Florianopolis",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.25.1",
+    "revisao": "file:"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
