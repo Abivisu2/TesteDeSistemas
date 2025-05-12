@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1747013958478" clover="3.2.0">
+  <project timestamp="1747013958479" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="12" coveredelements="12" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+    <file name="Login.js" path="C:\TesteDeSistemas\login_jest\classes\Login.js">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="8" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
